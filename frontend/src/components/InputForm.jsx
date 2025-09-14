@@ -8,7 +8,7 @@ function InputForm({ keywords, setKeywords, setPlan }) {
   const [shoppingBudget, setShoppingBudget] = useState(300);
   const [pmaxBudget, setPmaxBudget] = useState(200);
 
-  const backendUrl = "http://127.0.0.1:8000"; 
+  const backendUrl = "https://sem-planner.onrender.com"; 
 
   const fetchKeywords = async () => {
     try {
